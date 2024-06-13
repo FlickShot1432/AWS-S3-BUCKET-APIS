@@ -1,4 +1,4 @@
-import { SERVER_ERROR, STATUS_CODES } from "./constant.js"
+import { SERVER_ERROR, STATUS_CODES, TYPES } from "./constant.js"
 
 const response = ({ type, error, data, message, ...fields }) => {
     const object = { type, error, data, message }

@@ -1,6 +1,8 @@
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 
+dotenv.config();
+
 const options = {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
